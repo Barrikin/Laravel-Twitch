@@ -1,23 +1,23 @@
 {
-    "name": "romanzipp/laravel-twitch",
-    "description": "Twitch PHP Wrapper for Laravel",
+    "name": "barrikin/laravel-twitch",
+    "description": "Twitch PHP Wrapper for Laravel (Fork from romanzipp)",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "romanzipp",
-            "email": "ich@ich.wtf",
-            "homepage": "https://ich.wtf"
+            "name": "barrikin",
+            "email": "barrikin@barrikin.com",
+            "homepage": "https://barrikin.com"
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "^8.3",
         "ext-json": "*",
-        "firebase/php-jwt": "^6.2",
-        "guzzlehttp/guzzle": "^7.0",
-        "illuminate/cache": "^7.0|^8.0|^9.0|^10.0|^11.0",
-        "illuminate/console": "^7.0|^8.0|^9.0|^10.0|^11.0",
-        "illuminate/support": "^7.0|^8.0|^9.0|^10.0|^11.0"
+        "firebase/php-jwt": "^6.11",
+        "guzzlehttp/guzzle": "^7.9",
+        "illuminate/cache": "^7.0|^8.0|^9.0|^10.0|^v12.2.0.0",
+        "illuminate/console": "^7.0|^8.0|^9.0|^10.0|^v12.2.0.0",
+        "illuminate/support": "^7.0|^8.0|^9.0|^10.0|^v12.2.0.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.0",

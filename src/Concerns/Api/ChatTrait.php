@@ -219,4 +219,12 @@ trait ChatTrait
 
         return $this->post('chat/shoutouts', $parameters);
     }
+
+    public function sendChatMessage(array $parameters = [], array $body = []): Result
+    {
+        $this->validateRequired($parameters, ['broadcaster_id', 'sender_id']);
+        $this->validateRequired($body, ['message']);
+
+        return $this->post('chat/messages', $parameters, null, $body);
+    }
 }
