@@ -1,5 +1,5 @@
 {
-    "name": "romanzipp/laravel-twitch",
+    "name": "barrikin/laravel-twitch",
     "description": "Twitch PHP Wrapper for Laravel",
     "license": "MIT",
     "type": "library",
